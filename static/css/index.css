@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@400;700&display=swap');
+@import 'fa.css';
+@import 'variables.css';
+
+html, body {
+	width: 100%;
+	margin: 0;
+	padding: 0
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	font-size: 1rem;
+	font-family: 'Raleway', sans-serif;
+	color: var(--color-dark);
+	background-color: var(--color-background);
+}
+
+.main {
+	margin: 0;
+	padding: 0
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2.4rem;
+}
+
+.header__title {
+	font-size: 6rem;
+	font-weight: normal;
+	font-family: 'Permanent Marker';
+	color: var(--color-primary);
+	margin: 0 0 1.2rem 0;
+}
+
+.nav {
+	min-width: 340px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.4rem 2rem;
+	border-bottom: 2px solid var(--color-dark);
+}
+
+.nav__link {
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--color-dark);
+}
+
+.nav__link:hover {
+	color: var(--color-primary-compliment)
+}
+
+.nav__link--selected {
+	color: var(--color-primary)
+}
+
+.nav__link__icon {
+	margin: 0 0.4rem 0 0;
+}
+
+.nav__link__text {
+	margin: 0;
+	display: inline-block;
+}

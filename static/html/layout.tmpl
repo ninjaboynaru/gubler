@@ -1,0 +1,17 @@
+{{ define "layout" }}
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Gubler</title>
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		{{ template "header" }}
+		<main class="main">
+			{{ template "content" }}
+		</main>
+		{{ template "footer" }}
+	</body>
+</html>
+{{ end }}
